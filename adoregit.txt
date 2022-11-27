@@ -1,0 +1,22 @@
+1. first open a file
+2. then select git bash here
+3. git initialize
+4. git reset
+5. git status
+6. to track a particular file git add<file name>
+7. git reset (to unstage a file)
+8. git diff (diff of what is changed but not staged)
+9. git diff --staged (diff of what is staged but not commited)
+10. git  commit-m
+
+
+working directory         stagging area        local repo        remote repo 
+
+-------git add------------>  | ------git commit-----> |  -----git push----->
+                             |                        |
+-----------------------git commit-m------------------>|                            |                        |
+                             |                        |
+7. touch (used to add files)
+8. git add-A (stage all files directly to stagging area)
+9. git rm - cached <file> (for unstaging)
+10. rest assured
